@@ -1,0 +1,170 @@
+    #header{
+        margin: auto 0;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: lightgray;
+        border: 5px black solid
+    }
+
+    .container{
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: xx-large;
+    }
+
+    li{
+        margin-bottom: 20px;
+    }
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    #body1{
+        display: flex;
+    }
+
+    #navoldalra{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #navoldalra > div{
+        background-color: rgb(122, 43, 43);
+        border: 3px black solid;
+        padding: 12px;
+    }
+
+    #content{
+        padding-left: 20px;
+        background-color: wheat;
+        border: 5px black solid
+    }
+
+    #navlefele{
+        background-color: rgb(107, 107, 70);
+        border: 5px black solid;
+        padding-right: 100px;
+    }
+
+    #footerid{
+        background-color: rgb(91, 91, 209);
+        border: 5px black solid;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #footerid > div{
+        
+        margin: 0 auto;
+        padding: 0  auto;
+    }
+
+    #footerid img{
+        width: 200px;
+        padding-top: 20px;
+    }
+
+    #footerid > input[type="button"]{
+        transform: scale(1.5);
+        margin-top: 30px;
+        padding: 10px;
+        background-color: red;
+        color: white;
+    }
+
+    #cpr{
+        height: 40px;
+    }
+
+
+    #termekek{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap ;
+        margin-top: 50px;
+        row-gap: 20px;
+    }
+
+    #termekek > div{
+        background-color: white;
+        border: 2px black solid;
+        width: 180px;
+        text-align: center;
+        padding-bottom: 30px;
+        
+    }
+
+    #termekek > div > img{
+        width: 120px;
+        margin-top: 0px;
+    }
+
+    #termekek > div:nth-child(1){
+        width: 180px;
+    }
+
+    #termekek > div:nth-child(2){
+        width: 180px;
+    }
+
+    #termekek > div:nth-child(2) > img{
+        height: 170px;
+    }
+    #termekek > div:nth-child(3) > img{
+        height: 140px;
+    }
+
+    #termekek > div:nth-child(4){
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    #termekek > div:nth-child(3){
+        margin-bottom: 0px;
+    }
+
+    #termekek > div:nth-child(5) > img{
+        height: 140px;
+    }
+
+    #termekek > div:nth-child(6) > img{
+        height: 150px
+    }
+
+    #termekek > div:nth-child(6){
+        font-size: 25px;
+    }
+
+    
+    #termekek > div:nth-child(5){
+        height: 230px;
+        margin-top: 0px;
+        height: 230px;
+        margin-bottom: 0px;
+    }
+
+
+    #termekek > div:nth-child(6){
+        width: 180px;
+        margin-top: 0px;
+        height: 230px;
+        margin-bottom: 60px;
+    }
+
+    #termekek div{
+        height: 250px;
+    }
+
+    #content > p{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content:baseline;
+    }

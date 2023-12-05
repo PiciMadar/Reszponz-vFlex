@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FlekszBoksz</title>
+    <style>
+        @media only screen and (max-width: 400px) {
+          #navoldalra{
+              display: block;
+              
+          }
+          .container{
+              margin-left: auto;
+              margin-right: auto;
+          }
+
+          #content{
+              padding-right: 20px;
+          }
+
+          #navoldalra > div{
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            column-gap: 30px;
+            row-gap: 30px;
+            justify-content: space-around;
+          }
+          #navlefele{
+              display: flex;
+              padding-right: 0px;
+              margin-right: 0px;
+          }
+
+          #navlefele > ul{
+              margin-right: 0px;
+              padding-right: 0px;
+              margin-left: 0px;
+              padding-left: 0px;
+          }
+
+          #navlefele > ul >li{
+              margin-right: 0px;
+              padding-right: 0px;
+              margin-left: 0px;
+              padding-left: 0px;
+          }
+
+          
+          #body1{
+              display: block;
+              font-size: 50px;
+          }
+
+          #body1 ul{
+              margin-left: 120px;
+          }
+          #body1 > div:nth-child(2){
+              padding-top: 0px;
+              padding-bottom: 60px;
+          }
+
+          #footerid{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              flex-direction: column;
+              padding: 20px;
+          }
+          #footerid img{
+            padding-top: 40px;
+            padding-bottom: 40px;
+          }
+
+          #footerid input[type="button"]{
+            margin-bottom: 40px;
+          }
+
+          #termekek > div:nth-child(6){
+             width: 180px;
+             margin-top: 00px;
+             height: 230px;
+             margin-bottom: 60px;
+        }
+
+        #termekek > div:nth-child(5){
+        height: 230px;
+        margin-top: 00px;
+        height: 230px;
+        margin-bottom: 0px;
+        }
+
+        #termekek{
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            column-gap: 30px;
+            row-gap: 50px;
+            margin-left: 0px;
+            padding-left: 0px;
+        }
+
+          #termekek > div{
+              margin-top: 0px;
+              margin-bottom: 0px;
+          }
+
+          
+        }
+
+        @media only screen and (max-width: 1029px) and (min-width:921px){
+        #termekek > div:nth-child(4){
+        height: 260px;
+        margin-top: 0px;
+        margin-bottom: 00px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        }
+    }
+
+        @media only screen and (max-width: 920px) and (min-width: 736px){
+        #termekek > div:nth-child(3){
+        height: 260px;
+        margin-top: 0px;
+        margin-bottom: 00px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        }
+
+        #termekek > div:nth-child(4){
+            height: 230px;
+        }
+    }
+        @media only screen and (max-width: 735px) and (min-width: 401px){
+        #termekek div{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        #termekek > div:nth-child(4){
+            height: 230px;
+        }
+    }
+
+        @media only screen and (min-width: 1030px){
+        #termekek div{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        #termekek > div:nth-child(4){
+            height: 230px;
+        }
+        }
+
+        @media only screen and (min-width: 1104px){
+            #termekek > div:nth-child(4){
+            height: 250px;
+        }
+
+
+        }
+        @media only screen and (min-width: 1288px){
+            #termekek > div:nth-child(5){
+            height: 250px;
+        }
+        }
+        @media only screen and (min-width: 1472px){
+            #termekek > div:nth-child(6){
+            height: 250px;
+        }
+        }
+
+    </style>
+</head>
+<div class="container">
+    <body>
+        <div id="header">
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <div id="navoldalra">
+                <div>
+                    <a href="">Home</a>
+                </div>
+                <div>
+                    <a href="">Rólunk</a>
+                </div>
+                <div>
+                    <a href="">Nem tudom elolvasni</a>
+                </div>
+                <div>
+                    <a href="">Kapcsolat</a>
+                </div>
+            </div>
+        </div>
+        <div id="body1">
+            <div id="navlefele">
+                <ul>
+                    <li><a href="">Menü 1</a></li>
+                    <li><a href="">Menü 2</a></li>
+                    <li><a href="">Menü 3</a></li>
+                    <li><a href="">Menü 4</a></li>
+                    <li><a href="">Menü 5</a></li>
+                    <li><a href="">Menü 6</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam expedita doloremque eum consectetur corporis at pariatur dolor inventore cupiditate ipsa? Nemo quis in animi ad voluptatem praesentium doloremque delectus accusantium?</p>
+                <div id="termekek">
+                    <div>
+                        Nitromint
+                        <br>
+                        <img src="/Névtelen.png " alt="">
+                        <br>
+                        Nyugtató (nem)
+                    </div>
+                    <div>
+                        Betonkeverő
+                        <br>
+                        <img src="/1024-category-image.png" alt="">
+                        <br>
+                        Kemény
+                    </div>
+                    <div>
+                        Privát repülő (illegálisan)
+                        <br>
+                        <img src="/covid-770x350.jpg" alt="">
+                        <br>
+                        Pilóta nélkül
+                    </div>
+                    <div>
+                         Eminem koncert
+                         <br>
+                         <img src="/emnm.png" alt="">
+                         <br>
+                         Magyar színész
+                    </div>
+                    <div>
+                        Parlament
+                        <br>
+                        <img src="/budapest-building.jpg" alt="">
+                        <br>
+                        Erdélybe
+                    </div>
+                    <div>
+                        Termonukleáris atomtöltet
+                        <br>
+                        <img src="/200px-Littleboy_inner1_info.png" alt="">
+                        <br>
+                        Segítség
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div id="footerid">
+                <img src="/turr_logo_kek_eac8d5d516.png" alt="">
+                <img id="cpr" src="/1200px-Copyright.svg.png" alt="">
+                <input type="button" value="Feliratkozás!">
+        </div>
+    </footer>
+
+
+<!-- Az elején elrontottam az egész kódot, hogy a végére már teljesen lusta voltam újra írni, ezért a legcsúnyább, de beváló módszerhez folyamodtam....-->
+
+
+</div>
+</html>
